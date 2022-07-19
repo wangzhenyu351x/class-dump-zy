@@ -562,6 +562,7 @@
 				01B02D0213A5B0DC0047BC53 /* formatType */,
 				0165B8B41827137D00CC647F /* UnitTests */,
 				01EB826013A590D9003EDE60 /* Products */,
+				28CFE2F0BF5AE07049E72AFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -788,6 +789,13 @@
 			name = "Third Party";
 			sourceTree = "<group>";
 		};
+		28CFE2F0BF5AE07049E72AFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -916,7 +924,7 @@
 				en,
 			);
 			mainGroup = 01EB825413A590D9003EDE60;
-			productRefGroup = 01EB826013A590D9003EDE60 /* Products */;
+			productRefGroup = 01EB825413A590D9003EDE60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

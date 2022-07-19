@@ -85,7 +85,7 @@
         [resultString appendString:@";"];
         if (typeController.shouldShowMethodAddresses && self.address != 0) {
             if (typeController.targetArchUses64BitABI)
-                [resultString appendFormat:@"\t// IMP=0x%016lx", self.address];
+                [resultString appendFormat:@"\t// IMP=0x%lx", self.address];
             else
                 [resultString appendFormat:@"\t// IMP=0x%08lx", self.address];
         }
